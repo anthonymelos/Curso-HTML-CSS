@@ -1,0 +1,5 @@
+Servem para diferenciar tags que sãoo iguais entre si. Por exemplo, é possível identificar mesmas tags h2 como diferentes, usando id e class.
+
+
+- Em HTML é id = em CSS é #
+- Em HTML é class = em CSS é .

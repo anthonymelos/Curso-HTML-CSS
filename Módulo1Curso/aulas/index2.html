@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="download.jfif" type="image/x-icon">
+    <title>Anotações de aula</title>
+</head>
+<body>
+    <p>Teste de símbolos</p>
+    &reg;
+    &copy;
+    &trade;
+    &Delta;
+
+    &lt;p&gt;
+
+    <p>Emojis</p>
+    <p>Usar <strong>&#x</strong>(código do emoji)</p>
+    <p>&#x1F525</p>
+
+    <img src="Mustang-Carroll-Shelby-Centennial-Edition-1.jpg" alt="Foto de um mustang">
+
+
+<p>As tags &lt;h1&gt;, &lt;h2&gt;, etc são tags de hierarquia de títulos</p>
+
+
+<p>
+    <strong>
+        <em>
+    
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus voluptate consequuntur vel commodi amet porro molestiae unde perferendis eligendi veritatis, sequi aliquid. Impedit totam delectus nam vel harum cumque aliquid.
+        </em>
+    </strong>
+
+    <p>Podemos criar também um <mark style="background-color: blanchedalmond;">texto marcado</mark></p>
+
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo</p> <!--Tags vermelhas como big estão em desuso-->
+
+    <p>Podemos marcar um <del>texto como excluído</del> para indicar que ele deve ser lido, mas não considerado</p>
+
+    <p>Existe o <ins>texto inserido</ins></p>
+
+    <p>Texto sobrescrito: x<sup>2</sup> + 3 = 0</p>
+
+    <p>Texto subescrito: H<sub>2</sub>O</p>
+
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
+    <!--Code é uma tag para fonte mono espaçada, quer dizer que todos os caracteres ocupam o mesmo espaço na tela em pixels-->
+
+    <!--Já a tag <pre> é também uma tag para código que considera as indentações-->
+
+        <code>
+            if (num < 20){
+                system.out.println("olá");
+            }
+            else
+                syso("Olá denovo");
+        </code>
+
+        <!--Veja as diferenças: acima e em baixo-->
+
+        <pre>
+            <code>
+                if (num == 20){
+                    system.out.println("olá");
+                }
+                else
+                    syso("Olá denovo");
+            </code>
+
+            <h2>Citação simples</h2>
+            <p>Como dizem: <q>O computador é um burro muito rápido</q></p>
+
+            <h2>Citação completa</h2>
+            <p>Como dizem: <blockquote>O computador é um burro muito rápido</blockquote></p>
+
+            <h2>Abreviações</h2>
+            <p>Estou estudando <abbr title="Hypertext Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p>
+        </pre>
+
+
+
+
+</p>
+
+<h2>Listas Ordenadas</h2>
+<ol type="1" start="1"> <!--Order List-->
+    <li>Acordar</li> <!--List Item--> 
+    <li>Tomar café</li>
+</ol> 
+
+<h2>Listas não Ordenadas</h2>
+<ul type="square"><!--Unorded List-->
+    <li>Pão</li>
+    <li>Queijo</li>
+    <li>Manteiga</li>
+</ul>
+
+<h2>Listas Mistas e de definição</h2>
+    <h3>Linguagens</h3>
+        <ol>
+            <li>Antigas</li>
+                <ol type="a">
+                    <li>Clippper</li>
+                    <li>VB</li>
+                    <li>Fortran</li>
+                </ol>
+            <li>Novas</li>
+                <ol type="a" start="5">
+                    <li>PHP</li>
+                    <li>Python</li>
+                    <li>JavaScript </li>
+                </ol>
+        </ol>
+
+        <p>Exemplo de <a href="www.youtube.com" target="_blank" rel="external">hiperlink</a></p> <!--O parâmetro target _blank que abre outra aba sem fechar a anterior e rel external serve para indicar pro navegador que o link é de um site externo-->
+
+        <h2>Links para download</h2>
+        <ul>
+            <li><a href="Lista de exercícios #3 - Portugol.pdf" download="Lista de exercícios #3 - Portugol.pdf" type="applicattion/pdf">Clique para baixar o ebook</a></li>
+            <li></li>
+            <li><a href="#"><!-- # para links vazios--></a></li>
+        </ul>
+
+        <h1>Imagem dinamica</h1>
+        <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador</p>
+
+        <picture>
+            <!--Essa tag permite que se crie vários sources-->
+            <!--É necessário ser de ordem crescente ou decrescente, caso contrário não funciona. Caso esse tratamento não for feito, isso pode ser ruim pro site, e cai a pontuação do google, pois aumenta a taxa de abandono do site pelos usuários-->
+
+            <source media="(max-width: 750px)" srcset="imagens/imagemp.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/imagemm.png" type="image/png"> 
+            <!-- A tag source quer dizer que se o tamanho do navegador for menos de 1000 px, ele vai carregar a imagem M, o mesmo vale para imagem p para 750px. Esse 50 px é referente a barra de rolagem do navegador-->
+            <img src="imagens/imagemg.png" alt="imagens flexíveis">
+        </picture>
+
+        <h1>Reproduzindo audio</h1>
+        <p>Vamos aprender a reproduzir áudio em HTML</p>
+        <audio src="midias/audioteste.ogg" controls autoplay></audio>
+
+        <!--Extenções compatíveis de áudio em navegadores: MP3, WAV, OGG-->
+
+        <p>Outra forma</p>
+        <audio preload="metadata" autoplay controls>
+            <source src="midias/audioteste.ogg" type="audio/ogg">
+            <!--Usar vários sources para diferentes arquivos de aúdio-->
+            <!--O preload metadata é bom para o site pois só carrega a mídia caso o usuário clique para reproduzir, isso ajuda o site a ficar menos lento-->
+            <p>Infelizmente seu navegador não consegue reproduzir audio <a href="midias/audioteste.ogg">Clique aqui para baixar o arquivo</a></p>
+        </audio>
+
+
+        <h1>Mídias de vídeo</h1>
+        <p>Inserindo vídeos hospedados localmente</p>
+
+        <!--Eu não quis colocar vídeos por uma questão de espaço e download, mas segue os exemplos-->
+
+        <video width="500" poster="imagens/Mustang-Carroll-Shelby-Centennial-Edition-1.jpg" controls preload="metadata" loop> 
+            <!--Controls é para aparecer os controles do navegador-->
+            <!--width é a largura do vídeo-->
+            <!--poster se refere a capa que será colocada no vídeo-->
+            <!--loop: repetir o vídeo-->
+            <source src="exemplovideo.mp4" type="video/mp4">
+            <source src="exemplovideo.m4v" type="video/mp4">
+            <source src="exemplovideo.webm" type="video/webm">
+            <source src="exemplovideo.ogv" type="video/ogg">
+            <p>Seu navegador não tem compatibilidade com reprodução de vídeos</p>
+
+            <!--Como nas imagens, as tags sources vão sendo testadas uma a uma. Caso o navedor não seja compatível com um formato de arquivo, ele tenta o próximo. E caso não seja compatível com nenhum, ele fornece a mensagem-->
+
+            <!--Contudo, essa forma de se trabalhar pode consumir muita banda do site, podendo tornar o serviço de hospedagem bastante caro-->
+        </video>
+
+        <p>Outras formas mais baratas/gratuitas de se adicionar vídeos:</p>
+        <ul>
+            <li>Vídeos do youtube: Basta clicar em compartilhar e depois em incorporar, que já vai ser fornecido o html referente ao vídeo</li>
+            <li><iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=_2hiG98tk8gRH1Ax" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></li> 
+        </ul>
+
+
+
+
+
+</body>
+</html>

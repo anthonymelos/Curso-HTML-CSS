@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            /*font-family: 'Courier new'; No font family, nomes de fonte que tem espaço como Courier_new tem que suar aspas*/
+
+            font-family: Arial, Helvetica, sans-serif; /*Esse tipo de declaração funciona para diferentes dispositivos. Caso arial não funcione no dispositivo, tem-se helvetica, se essa não funcionar tem a próxima...*/
+
+            font-size: 16px; /*Tamanho padrão e oficial junto com px (pixel)*/
+            /*16px geralmente = 1em, logo, 2em é o dobro do tamanho dos 16px = 32px*/
+
+            font-weight: bold; 
+            /*É o peso da fonte (do menor peso para maior): */
+            /*lighter normal bold bolder*/
+            /*Outra configuração: 100 a 900 */
+
+            font-style: italic; /*estilo*/
+
+            text-decoration: underline; /*Decoração. Nem toda fonte tem todas essas configurações*/ 
+
+
+        }
+
+        h1, h2{
+            font-family: 'Times New Roman', monospace;
+        }
+
+        h3{
+            /*Shorthand font: É uma maneira mais fácil de se colocar 4 atributos de fontes muito usados, que são os anteriores: font-style, font-weigth, font font-size e font-family.*/
+
+            /*font-style -> font-weigth -> font-size -> font-family.*/
+
+            /*Usa-se shorthand font no lugar disso: 
+            
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 16px;
+            font-style: italic;*/
+            
+            /*Shorthand font: */
+            font: italic bolder 3em Verdana
+            
+            /*É necessário ser na ordem, mas um ou outro atributo não precisa ter. Por exemplo: caso queira mudar só o tamanho e font, é possível usar isso no shorthand font*/
+        }
+        </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates rerum incidunt nulla quia obcaecati ipsa animi ut! Distinctio, laudantium voluptate eos, explicabo facere maxime tempore quisquam rem error quam ullam.</p>
+
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ratione fugiat aliquam temporibus. Animi quia ab tempora tenetur rerum alias perspiciatis ex quibusdam ratione fugit. Perspiciatis asperiores veritatis inventore neque!</p>
+
+    <h3>Título de nível 3</h3>
+</body>
+</html>

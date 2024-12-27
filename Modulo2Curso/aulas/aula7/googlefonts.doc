@@ -1,0 +1,5 @@
+Para adicionar uma nova fonte ao site basta acessar o Google Fonts > escolher a fonte > Get code > Import > Colar em style o código de importação > No google fonts, pegar os códigos de estilizaçao CSS (seletores) > Colar os códigos nas classes CSS, como body, h1, etc. Como font familys, font-weight etc.
+
+Para cada fonte que se importar, terá que se colocar o @import e logo abaixo a tag de inicio do <style> ou primeiras linhas do documento CSS separado. Os @imports também devem ficar fora de um seletor.
+
+Geralmente em um site se tem 3 diferentes tipos de fontes. Pra títulos, destaque e fonte normal.

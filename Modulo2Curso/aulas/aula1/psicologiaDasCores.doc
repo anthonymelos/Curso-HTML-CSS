@@ -1,0 +1,12 @@
+Psicologia das cores
+
+Cores são emoções. Elas são muito importantes, pois está relacionado a como o visitante do site irá interagir com ele ou não, sendo uma questão de subconsciente. 
+
+Representação de cores em CSS pode ser feito de 4 maneiras:
+- Nome: ex: blue
+- Código hexadecimal: #0000ff -> (00 para red, 00 para green, ff para blue)
+- Representação RGB: rgb(0, 0, 255) -> 0 para red, 0 para green, 255 para blue
+- Representação por hsl (hue, saturation, luminosity): (matiz, saturação e luminosidade): ex -> hsl(240, 100%, 50%)
+
+O VScode ajuda em relação a cores. Basta clicar em cima da cor e alterar para qual representação de cor se quiser. Inclusive, em rgba, esse 'a' é alfa, que é transparência, também é possível alterar no vscode.
+

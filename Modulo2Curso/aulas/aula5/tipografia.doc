@@ -1,0 +1,28 @@
+            Tipografia
+
+Surge com as prensas de Gutterberg. No qual as letras foram sendo melhoradas para melhor leitura e legibilidade. É o estudo de como se escreve coisas no papel e telas. Pois as fontes também passam emoções e sentimentos. 
+
+Anatomia do Tipo
+
+É como as letras são desenhadas.
+
+- Serifa: Serifa é um pezinho que sobra nas letras com o objetivo de mostrar ao nosso cérebro uma linha imaginária.
+
+- Sans-serif: Sem serifa.
+
+- Monoespaçado: Fonte que ocupa o mesmo espaço para todas as letras. São os tamanhos laterais das letras
+
+- Handwriting: Fonte que simula a escrita humana à mão.
+
+- Fonte display: Fonte comemorativa, que não tem nenhuma das características anteriores.
+
+
+            Tamanho de fonte e suas medidas
+
+- Medidas absolutas: cm, mm, in (polegada), px, pt (ponto), pc (paica).
+
+- Medidas relativas: em (medida relativa ao tamanho atual da fonte), ex (relativa ao tamanho x de uma fonte), rem, vw, vh, %
+
+- Medidas recomendadas a se usar: px e em.
+
+- 16px geralmente é o tamanho normal da fonte.
