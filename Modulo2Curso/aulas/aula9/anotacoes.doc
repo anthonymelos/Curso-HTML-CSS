@@ -1,0 +1,12 @@
+# é id
+. é class
+: é uma pseudoclasse
+
+As pseudoclasses devem estar ligadas a um elemento ou classe. Está relacionado ao estado de cada elemento. Se está ativo, vazio, etc
+
+Por exemplo, a pseudoclasse 'hover' do css altera seu estado quando se passa o mouse por cima. 
+
+É possível selecionar tags que são filhas de outras usando >. Por exemplo: Uma tag <p> que esteja dentro de uma <div>. No css se referencia 
+        div > p{
+            
+        }

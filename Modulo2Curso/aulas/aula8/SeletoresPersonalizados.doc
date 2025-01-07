@@ -3,3 +3,11 @@ Servem para diferenciar tags que sãoo iguais entre si. Por exemplo, é possíve
 
 - Em HTML é id = em CSS é #
 - Em HTML é class = em CSS é .
+
+Segundo regras de boas práticas de html e css,  não se pode usar o mesmo id, para uma mesma tag. Por exemplo, não se pode usar o id = "principal" para mais de uma tag. Por isso, usa-se as class.
+
+As class também fazem a configuração personalizada, porém pode-se identificar várias tags com a mesma classe.
+
+Nomear os id's e class' não de acordo com a forma, mas sim de acordo com a função.
+
+Também é possível aplicar mais de uma classe a uma mesma tag. Também pode um id e uma class na mesma tag. Portanto o id sobrepõe.

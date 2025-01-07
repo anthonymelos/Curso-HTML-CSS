@@ -22,3 +22,19 @@ h1#principal{
     background-color: rgb(255, 145, 0);
     color: white;
 }
+
+.basico{
+    color: rgb(0, 255, 34);
+}
+
+.intermediario{
+    color: rgb(229, 255, 0);
+}
+
+.avancado{
+    color: rgb(255, 0, 0);
+}
+
+.destaque{
+    background-color: rgb(165, 137, 101);
+}
