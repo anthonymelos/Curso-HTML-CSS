@@ -1,0 +1,10 @@
+Pseudoclasses: São palavras que definem estados de elementos dentro do html. 
+
+Pseudoelementos: Pode agir nas classes, elementos, id. Mexem no conteúdo.
+
+Seletores Personalizados:
+# = id
+. = class
+: = Pseudo-class
+:: = Pseudo-element
+> = children
