@@ -1,0 +1,26 @@
+            Modelo de Caixas
+
+Serve para organizar melhor os designs do site. Tudo no html é exibido em forma de caixa. As tags no html são CAIXAS. E quando se formata as tags do html no css, está se formatando as caixas. 
+
+Toda caixa tem:
+-> Height: altura. 
+-> Width: largura.
+
+-> Border = A primeira linha em volta do contéudo. Fica grudada no pontilhado do conteúdo. 
+
+-> Padding = É um distanciamento que fica entre o pontilhado do conteúdo e a border. Do border pra dentro. 
+
+-> Margin = É um distanciamento que fica do border para fora.
+
+            Tipos de Caixa
+    
+-> Box Level: É uma tag/caixa que sempre se inicia numa linha nova. Por exemplo, a tag <p> é box level. Esse tipo de caixa ocupa 100% tela.
+
+-> Inline Level: É uma caixa/tag que inicia na mesma linha onde foi colocada. Ele NÃO quebra linha antes e depois. Ex: A tag <span>. As tag <div> é box level, a <span> é inline level. Outro ex: A tag <a>.
+
+User agent são as configurações padrão do navegador. 
+
+A propriedade margin: auto, faz com que o conteúdo fique no meio. 
+
+É possível mudar um elemento usando a propriedade display. Se quiser alterar uma tag que é display: block por padrão e colocar inline é possível. É só usar a propriedade inversa. 
+
