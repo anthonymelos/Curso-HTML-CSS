@@ -1,0 +1,30 @@
+<body>
+
+    <!--São as tags que constroem um site-->
+
+    <header> <!--Cabeçalho-->
+        <nav> <!--Navegação-->
+
+        </nav>
+    </header>
+
+    <main> <!--Parte principal-->
+        <section> <!--Seção-->
+
+        </section>
+
+        <section>
+            <article> <!--Artigo-->
+                <aside> <!--Lateral-->
+
+                </aside>
+            </article>
+        </section>
+        
+    </main>
+
+    <footer> <!--Rodapé-->
+
+    </footer>
+    
+</body>
